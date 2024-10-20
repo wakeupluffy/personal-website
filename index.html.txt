@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Жаныбек - Личная страница</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f0e1;
+            color: #333;
+        }
+        header {
+            background-color: #f8c471;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        nav a {
+            color: #f8c471;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 40px;
+            text-align: center;
+        }
+        footer {
+            background-color: #f8c471;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .gallery img {
+            width: 200px;
+            height: 200px;
+            margin: 10px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Жаныбек - Личная страница</h1>
+</header>
+
+<nav>
+    <a href="#about">Обо мне</a>
+    <a href="#contacts">Контакты</a>
+    <a href="#gallery">Галерея</a>
+</nav>
+
+<section id="about">
+    <h2>Обо мне</h2>
+    <p>Меня зовут Жаныбек, мне 18 лет, и я в данный момент проживаю и учусь заграницей в Чехии. Моё любимое хобби — читать книги и готовить разные блюда. Больше всего мне нравится печь хлеб и разные булочки.</p>
+</section>
+
+<section id="contacts">
+    <h2>Контакты</h2>
+    <p>Instagram: <a href="https://www.instagram.com/xtyiws" target="_blank">@xtyiws</a></p>
+</section>
+
+<section id="gallery">
+    <h2>Галерея</h2>
+    <div class="gallery">
+        <img src="https://via.placeholder.com/200" alt="Фотография 1">
+        <img src="https://via.placeholder.com/200" alt="Фотография 2">
+        <img src="https://via.placeholder.com/200" alt="Фотография 3">
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 Жаныбек. Все права защищены.</p>
+</footer>
+
+</body>
+</html>
